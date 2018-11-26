@@ -43,7 +43,6 @@ $ git clone https://github.com/mxdlx/zimbra-rest-api
 # pip shouldn't be used with sudo but unless running inside virtualenv it's possible you'll need to install dependencies at a system-wide level
 $ sudo pip install -r requirements.txt
 
-# Attribute list MUST keep '["x", "y", "z"]' format
 $ FLASK_APP=main.py ZIMBRA_URL=https://zimbra.example.com:7071/service/admin/soap \
                     ZIMBRA_USER=admin@example.com \
 		    ZIMBRA_PASSWORD=secret flask run
