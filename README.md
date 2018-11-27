@@ -22,6 +22,7 @@ This service can be configured by placing a `service.conf` file in the working d
 * `[zimbra]`: Zimbra URL, user and password settings.
 
 **Example**
+
 A `service.conf` file is included as an example:
 
 ```bash
